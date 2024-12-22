@@ -1,6 +1,6 @@
 public class MinimumOperation {
 
-
+  //Time Complexity O(n) and Space Complexity O(1)
   public static int minOperation(int[] nums) {
     //Defining an variable count to store count
     int count = 0;
