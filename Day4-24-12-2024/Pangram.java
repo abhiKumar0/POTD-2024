@@ -3,6 +3,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Pangram {
+
+  //Time complexity O(n) and Space complexity O(n)
   public static void main(String[] args) {
 
     //Initializing scanner for user input

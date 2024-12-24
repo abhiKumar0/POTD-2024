@@ -1,5 +1,6 @@
 public class DutchFlagAlgo {
 
+  //Time complexity O(n) and Space complexity O(1)
   public static void sortColors(int[] N) {
 
     //Initializing 3 vars as high to last element, low and mid with starting element
