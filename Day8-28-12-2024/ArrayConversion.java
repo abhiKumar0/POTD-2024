@@ -1,4 +1,7 @@
 public class ArrayConversion {
+
+
+    //Time Complexity O(m*n) ans Space Complexity O(m*n)
     public static int[][] construct2DArray(int[] o, int m, int n) {
         //Initializing a 2d array
         int[][] arr = new int[m][n];
@@ -16,7 +19,7 @@ public class ArrayConversion {
             }
         }
 
-//        returning that 2d array
+        // returning that 2d array
         return arr;
 
     }
