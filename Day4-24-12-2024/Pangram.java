@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Pangram {
@@ -27,7 +26,7 @@ public class Pangram {
       map.put(str.charAt(i), map.getOrDefault(str.charAt(i), 0) + 1);
     }
 
-    //Initialising a boolean to check whether it is a pangram or not
+    //Initializing a boolean to check whether it is a pangram or not
     boolean isPangram = true;
 
     //All chars in alphabet
